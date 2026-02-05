@@ -9,3 +9,10 @@ Primero tenemos que abrir la terminal pero de wsl2, para poder ejectuar el curl,
 
 Ahora ejecutamos el comando `curl -s "https://laravel.build/app" | bash` para crear nuestro proyecto.
 Y ahora toca esperar ya que la instalación es bastante lenta.
+
+## Configuración de Laravel Sail
+Primero nos saldrá un mensaje pidiendo la contraseña para el usuario, en mi caso para raull, que es mi usuario del ordenador y luego nos dará el mensaje de instalación correcta.
+![image](img/instalacion.png)
+
+Ahora solo tenemos que acceder al directorio que se ha creado al ejecutar el comando anterior, que en mi caso es `app`, entonces simplemente ejecutamos es `cd app` y ahora tendremos que iniciar el entorno de contenedores por primera vez, con el comando `./vendor/bin/sail up -d`. 
+
